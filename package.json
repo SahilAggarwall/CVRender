@@ -1,0 +1,14 @@
+{
+  "name": "myresume",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "server-install": "cd api && npm install",
+    "install": "npm run client-install && npm run server-install",
+    "client": "cd client && npm start",
+    "server": "cd server && node server.js",
+    "build": "cd client && npm run build",
+    "start": "npm run server"
+  }
+}
